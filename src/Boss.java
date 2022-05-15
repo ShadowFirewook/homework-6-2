@@ -21,6 +21,6 @@ public class Boss extends GameEntity {
         Weapon weapon = new Weapon("Steel Arms", "Sword");
         Boss boss = new Boss(1000,65 );
         boss.setWeapon(weapon);
-        return "Здоровье: " + boss.getHP() + " Урон: "+ boss.getDMG() + " Тип оружия: " + boss.getWeapon().getWeaponType() +" Оружие: "+ boss.getWeapon().getWeaponName();
+        return "Р—РґРѕСЂРѕРІСЊРµ: " + boss.getHP() + " РЈСЂРѕРЅ: "+ boss.getDMG() + " РўРёРї РѕСЂСѓР¶РёСЏ: " + boss.getWeapon().getWeaponType() +" РћСЂСѓР¶РёРµ: "+ boss.getWeapon().getWeaponName();
     }
 }
