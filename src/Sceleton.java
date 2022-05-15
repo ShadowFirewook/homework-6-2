@@ -25,6 +25,6 @@ public class Sceleton extends Boss{
     sceleton1.setWeapon(weapon);
     sceleton2.setWeapon(weapon);
 
-    return "Здоровье: " + sceleton1.getHP() + " Урон: "+ sceleton1.getDMG() + " Тип оружия: " + sceleton1.getWeapon().getWeaponType() +" Оружие: "+ sceleton1.getWeapon().getWeaponName() + " Здоровье: " + sceleton2.getHP() + " Урон: "+ sceleton2.getDMG() + " Тип оружия: " + sceleton2.getWeapon().getWeaponType() +" Оружие: "+ sceleton2.getWeapon().getWeaponName();
+    return "Р—РґРѕСЂРѕРІСЊРµ: " + sceleton1.getHP() + " РЈСЂРѕРЅ: "+ sceleton1.getDMG() + " РўРёРї РѕСЂСѓР¶РёСЏ: " + sceleton1.getWeapon().getWeaponType() +" РћСЂСѓР¶РёРµ: "+ sceleton1.getWeapon().getWeaponName() + " Р—РґРѕСЂРѕРІСЊРµ: " + sceleton2.getHP() + " РЈСЂРѕРЅ: "+ sceleton2.getDMG() + " РўРёРї РѕСЂСѓР¶РёСЏ: " + sceleton2.getWeapon().getWeaponType() +" РћСЂСѓР¶РёРµ: "+ sceleton2.getWeapon().getWeaponName();
     }
 }
